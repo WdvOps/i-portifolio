@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.section`
   width: 100%;
   > section {
-    margin-top: 8rem;
+    margin-top: 3rem;
     width: 100%;
     display: flex;
     align-items: center;

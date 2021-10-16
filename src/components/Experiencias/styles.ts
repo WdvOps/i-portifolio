@@ -4,7 +4,7 @@ export const Container = styled.section`
   width: 100%;
   > section {
     width: 100%;
-    margin-top: 7rem;
+    margin-top: 3rem;
     display: flex;
     gap: 1.5rem;
     padding-bottom: 8rem;
