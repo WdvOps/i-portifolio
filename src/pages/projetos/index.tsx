@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Header";
 import ProjetoItem from "../../components/ProjetoItem";
-import { ProjetoContainer } from "../../styles/ProjetoStyles";
+import { ProjetosContainer } from "../../styles/ProjetosStyles";
 
 import { getPrismicClient } from '../../services/prismic';
 import { GetStaticProps } from 'next';
@@ -23,7 +23,7 @@ interface ProjetoProps {
 
 export default function Projetos({ projetos }: ProjetoProps) {
     return (
-        <ProjetoContainer >
+        <ProjetosContainer >
              
         <Head>
         <title>Portfolio | i-Portfólio</title>
@@ -53,7 +53,7 @@ export default function Projetos({ projetos }: ProjetoProps) {
               ))}
             </main>
             
-        </ProjetoContainer>
+        </ProjetosContainer>
     )
 }
 

@@ -28,7 +28,7 @@ export const ProjetoContainer = styled.div`
         background: ${({ theme }) => darken(0.05, theme.primary)};
       }
       a {
-        color: #fff;
+        color: #000;
         text-transform: uppercase;
         font-size: 1.5rem;
         font-weight: 300;
