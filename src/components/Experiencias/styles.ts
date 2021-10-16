@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-   width: 100%;
+  width: 100%;
   > section {
     width: 100%;
     margin-top: 7rem;
@@ -49,7 +49,7 @@ export const ItemContainer = styled.div`
       font-weight: 300;
     }
   }
-  
+
   &:hover > div {
     filter: brightness(1.3);
     transform: translateY(-20px);
