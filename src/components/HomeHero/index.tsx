@@ -1,5 +1,5 @@
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
-import picture from '../../assets/images/will.png';
+import picture from './../../assets/images/me.png';
 
 function HomeHero() {
   return (
